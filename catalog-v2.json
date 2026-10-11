@@ -1,5 +1,31 @@
 [
   {
+    "id": "lfm2_5_vl_450m",
+    "display_name": "LFM2.5-VL 450M",
+    "description": "Liquid AI's tiny vision-language model. Describes photos and reads text in images, even on budget phones.",
+    "size_bytes": 229313568,
+    "size_label": "~0.21 GB",
+    "download_url": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/main/LFM2.5-VL-450M-Q4_K_M.gguf",
+    "file_name": "lfm2_5_vl_450m_q4.gguf",
+    "min_ram_gb": 2,
+    "provider": "LFM",
+    "banner_url": "https://raw.githubusercontent.com/BlissRoms/neuron-model-catalog/main/banners/lfm2_5.webp",
+    "params_label": "450M params",
+    "task": "Image-text-to-text",
+    "context_length": 32768,
+    "supports_thinking": false,
+    "is_available": true,
+    "is_legacy": false,
+    "sha256": "1093f1331319199bbcacdbd7ecc9aa6e5678db6b55073948d0f508be90c8ab68",
+    "supports_vision": true,
+    "mmproj_url": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/main/mmproj-LFM2.5-VL-450m-Q8_0.gguf",
+    "mmproj_file_name": "lfm2_5_vl_450m_mmproj_q8.gguf",
+    "mmproj_size_bytes": 102815168,
+    "mmproj_sha256": "ebfc428baa37efad8bae93864f914b2634a09009f91ad59f974fe1a1565d8561",
+    "vision_max_tokens": 256,
+    "vision_included": true
+  },
+  {
     "id": "qwen3_5_0_8b",
     "display_name": "Qwen3.5 0.8B",
     "description": "Alibaba's smallest Qwen3.5 model. Fast everyday chat on 2GB RAM phones.",
@@ -15,7 +41,13 @@
     "supports_thinking": false,
     "is_available": true,
     "is_legacy": false,
-    "sha256": "bd258782e35f7f458f8aced1adc053e6e92e89bc735ba3be89d38a06121dc517"
+    "sha256": "bd258782e35f7f458f8aced1adc053e6e92e89bc735ba3be89d38a06121dc517",
+    "supports_vision": true,
+    "mmproj_url": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/mmproj-F16.gguf",
+    "mmproj_file_name": "qwen3_5_0_8b_mmproj_f16.gguf",
+    "mmproj_size_bytes": 204987232,
+    "mmproj_sha256": "56e4c6cfe73b0c82e3e82bc518d7591997e61d81f723fc41a586f4fa69ea2453",
+    "vision_max_tokens": 512
   },
   {
     "id": "lfm2_5_1_2b",
@@ -52,7 +84,13 @@
     "supports_thinking": false,
     "is_available": true,
     "is_legacy": false,
-    "sha256": "aaf42c8b7c3cab2bf3d69c355048d4a0ee9973d48f16c731c0520ee914699223"
+    "sha256": "aaf42c8b7c3cab2bf3d69c355048d4a0ee9973d48f16c731c0520ee914699223",
+    "supports_vision": true,
+    "mmproj_url": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/mmproj-F16.gguf",
+    "mmproj_file_name": "qwen3_5_2b_mmproj_f16.gguf",
+    "mmproj_size_bytes": 668227264,
+    "mmproj_sha256": "7035e9cb8d7c6a9681d07eef9a364783e86ea4cd73faab2eabb4f43a101830c7",
+    "vision_max_tokens": 512
   },
   {
     "id": "gemma4_e2b",
@@ -71,7 +109,13 @@
     "supports_thinking": false,
     "is_available": true,
     "is_legacy": false,
-    "sha256": "740185b21d22ceb83a11c3aa62ad5842ef32c70f6096d756bbee85a1e4ec34b8"
+    "sha256": "740185b21d22ceb83a11c3aa62ad5842ef32c70f6096d756bbee85a1e4ec34b8",
+    "supports_vision": true,
+    "mmproj_url": "https://huggingface.co/ggml-org/gemma-4-E2B-it-GGUF/resolve/main/mmproj-gemma-4-E2B-it-Q8_0.gguf",
+    "mmproj_file_name": "gemma4_e2b_mmproj_q8.gguf",
+    "mmproj_size_bytes": 557368064,
+    "mmproj_sha256": "9406f99c16d68cda4f1f0552192dcc99021ea1fc6d2fd50b1dc3ccf30d04b292",
+    "vision_max_tokens": 280
   },
   {
     "id": "granite4_2_3b",
@@ -107,7 +151,13 @@
     "supports_thinking": false,
     "is_available": true,
     "is_legacy": false,
-    "sha256": "9ed150d4367e68df0ac8e1540f6ddc65b42d0ee26378329d1ecbca60f93fc5f8"
+    "sha256": "9ed150d4367e68df0ac8e1540f6ddc65b42d0ee26378329d1ecbca60f93fc5f8",
+    "supports_vision": true,
+    "mmproj_url": "https://huggingface.co/ggml-org/Ministral-3-3B-Instruct-2512-GGUF/resolve/main/mmproj-Ministral-3-3B-Instruct-2512-Q8_0.gguf",
+    "mmproj_file_name": "ministral3_3b_mmproj_q8.gguf",
+    "mmproj_size_bytes": 448285088,
+    "mmproj_sha256": "57af826536cde496dde1e8343b8e72c89fdbd89084d58e18eb391ef34c39c9f2",
+    "vision_max_tokens": 512
   },
   {
     "id": "qwen3_5_4b",
@@ -125,7 +175,13 @@
     "supports_thinking": true,
     "is_available": true,
     "is_legacy": false,
-    "sha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4"
+    "sha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4",
+    "supports_vision": true,
+    "mmproj_url": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/mmproj-F16.gguf",
+    "mmproj_file_name": "qwen3_5_4b_mmproj_f16.gguf",
+    "mmproj_size_bytes": 672423616,
+    "mmproj_sha256": "cd88edcf8d031894960bb0c9c5b9b7e1fea6ebee02b9f7ce925a00d12891f864",
+    "vision_max_tokens": 512
   },
   {
     "id": "gemma4_e4b",
@@ -144,7 +200,13 @@
     "supports_thinking": false,
     "is_available": true,
     "is_legacy": false,
-    "sha256": "85a896a047553e842f25297ee5b031d64ff30147d9c4af17b1e4b394cd1fab87"
+    "sha256": "85a896a047553e842f25297ee5b031d64ff30147d9c4af17b1e4b394cd1fab87",
+    "supports_vision": true,
+    "mmproj_url": "https://huggingface.co/ggml-org/gemma-4-E4B-it-GGUF/resolve/main/mmproj-gemma-4-E4B-it-Q8_0.gguf",
+    "mmproj_file_name": "gemma4_e4b_mmproj_q8.gguf",
+    "mmproj_size_bytes": 559874816,
+    "mmproj_sha256": "197f49a93027f9843772bd24a6a9e0be2a32a788de5a3def330e9c585d86edd1",
+    "vision_max_tokens": 280
   },
   {
     "id": "qwen3_5_9b",
@@ -162,7 +224,13 @@
     "supports_thinking": true,
     "is_available": true,
     "is_legacy": false,
-    "sha256": "03b74727a860a56338e042c4420bb3f04b2fec5734175f4cb9fa853daf52b7e8"
+    "sha256": "03b74727a860a56338e042c4420bb3f04b2fec5734175f4cb9fa853daf52b7e8",
+    "supports_vision": true,
+    "mmproj_url": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/mmproj-F16.gguf",
+    "mmproj_file_name": "qwen3_5_9b_mmproj_f16.gguf",
+    "mmproj_size_bytes": 918166080,
+    "mmproj_sha256": "f70dc3509053962b0d0d3ee8a7eacebf5d60aa560cad78254ae8698516ae029f",
+    "vision_max_tokens": 512
   },
   {
     "id": "lfm2_5_8b_a1b",
@@ -200,7 +268,13 @@
     "supports_thinking": false,
     "is_available": true,
     "is_legacy": false,
-    "sha256": "0a270ec9fe6b34f4a0d33992b6135117b484ebc4766ab76b51d4ae8c457e4c42"
+    "sha256": "0a270ec9fe6b34f4a0d33992b6135117b484ebc4766ab76b51d4ae8c457e4c42",
+    "supports_vision": true,
+    "mmproj_url": "https://huggingface.co/ggml-org/gemma-4-12B-it-GGUF/resolve/main/mmproj-gemma-4-12B-it-Q8_0.gguf",
+    "mmproj_file_name": "gemma4_12b_mmproj_q8.gguf",
+    "mmproj_size_bytes": 158987616,
+    "mmproj_sha256": "59e62255435dda870e2d1de97cc031330b31a898bac12b38a182cecff9cd3738",
+    "vision_max_tokens": 280
   },
   {
     "id": "ministral3_14b",
@@ -218,7 +292,13 @@
     "supports_thinking": false,
     "is_available": true,
     "is_legacy": false,
-    "sha256": "824e0f3373e69b84f2cae46fdcb9bd1ebc6ab3bfc7acc125d818b7b8178cc613"
+    "sha256": "824e0f3373e69b84f2cae46fdcb9bd1ebc6ab3bfc7acc125d818b7b8178cc613",
+    "supports_vision": true,
+    "mmproj_url": "https://huggingface.co/ggml-org/Ministral-3-14B-Instruct-2512-GGUF/resolve/main/mmproj-Ministral-3-14B-Instruct-2512-Q8_0.gguf",
+    "mmproj_file_name": "ministral3_14b_mmproj_q8.gguf",
+    "mmproj_size_bytes": 468347296,
+    "mmproj_sha256": "2227355540f1d88b462892ea0bcc5c45cc73eb29433652bdedc33a8de88ba31b",
+    "vision_max_tokens": 512
   },
   {
     "id": "qwen2_5_0_5b",
